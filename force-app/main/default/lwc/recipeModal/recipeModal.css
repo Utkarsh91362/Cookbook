@@ -1,0 +1,88 @@
+/* Center the modal vertically */
+.slds-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal container */
+.custom-modal {
+    width: 28rem;                /* slightly smaller */
+    max-width: 90vw;
+    max-height: 34rem;           /* shorter modal */
+    background: transparent;            /* solid background (no transparent gap) */
+    border-radius:0 0 0.75rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    margin: 0;                   /* no extra space */
+    padding: 0;                  /* remove default spacing */
+}
+
+
+/* Header */
+.custom-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 0.5rem 0.75rem;     /* smaller padding */
+    margin: 0;
+}
+.slds-modal__close {
+    width: var(--lwc-squareIconMediumBoundary, 2rem);
+    height: var(--lwc-squareIconMediumBoundary, 2rem);
+    margin-left: auto;
+    position: relative;
+    bottom: var(--lwc-spacingXSmall, 0.5rem);
+    background-color: #ffffff00;
+}
+.slds-button__icon {
+    /* width: var(--lwc-squareIconMediumContentAlt, 0.875rem); */
+    /* height: var(--lwc-squareIconMediumContentAlt, 0.875rem); */
+    fill: #fff;
+}
+
+
+/* Title inside header */
+.custom-header h1 {
+    font-size: 1.1rem;           /* a bit smaller */
+    font-weight: 600;
+    margin: 0;
+    color: #2e2e2e;
+}
+
+/* Content */
+.custom-content {
+    flex: 1;
+    background: #ffffff;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;           /* more compact */
+    line-height: 1.4;
+    color: #444;
+    overflow-y: auto;
+    margin: 0;                   /* no extra gap */
+}
+
+/* Footer */
+.custom-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    border-top: 1px solid #e0e0e0;
+    background: #ffffff;
+    padding: 0.5rem 0.75rem;     /* compact footer */
+    margin: 0;
+}
+
+.recipe-list {
+    list-style-type: circle;   /* circle bullets */
+    padding-left: 1.5rem;      /* indent bullets */
+    margin: 0.5rem 0;          /* some vertical spacing */
+}
+
+.recipe-list li {
+    margin-bottom: 0.5rem;     /* space between steps */
+    line-height: 1.4;
+    color: #333;
+}
