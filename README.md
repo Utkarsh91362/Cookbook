@@ -1,10 +1,8 @@
 # 🍲 CookBook – Salesforce Digital Experience
 
-[![Salesforce](https://img.shields.io/badge/Salesforce-Active-00A1E0?style=flat&logo=salesforce&logoColor=white)](https://your-salesforce-site-url.com)
-[![LWC](https://img.shields.io/badge/LWC-Lightning%20Web%20Components-4BC6E7?style=flat&logo=salesforce&logoColor=white)](https://your-salesforce-site-url.com)
-[![Salesforce DX](https://img.shields.io/badge/SFDX-Salesforce%20DX-1797C0?style=flat&logo=salesforce&logoColor=white)](https://your-salesforce-site-url.com)
-[![Prettier](https://img.shields.io/badge/Prettier-Formatting-F7B93E?style=flat&logo=prettier&logoColor=white)](https://your-salesforce-site-url.com)
-[![Jest](https://img.shields.io/badge/Jest-Testing-C21325?style=flat&logo=jest&logoColor=white)](https://your-salesforce-site-url.com)
+[![Salesforce](https://img.shields.io/badge/Salesforce-Active-00A1E0?style=flat&logo=salesforce&logoColor=white)](https://orgfarm-e9c6032c36-dev-ed.develop.my.site.com/CookBook)
+
+
 
 CookBook is a Salesforce **Digital Experience (Experience Cloud Site)** built using **Lightning Web Components (LWC)** and Salesforce APIs.  
 It allows users to browse meals, view recipes, and explore step-by-step cooking instructions inside a sleek Salesforce-powered UI.  
