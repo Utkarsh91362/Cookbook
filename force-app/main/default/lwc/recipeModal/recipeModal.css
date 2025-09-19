@@ -37,11 +37,10 @@
     bottom: var(--lwc-spacingXSmall, 0.5rem);
     background-color: #ffffff00;
 }
-.slds-button__icon {
-    /* width: var(--lwc-squareIconMediumContentAlt, 0.875rem); */
-    /* height: var(--lwc-squareIconMediumContentAlt, 0.875rem); */
-    fill: #fff;
+.custom-close-icon {
+    fill: #ffffff; /* white icon */
 }
+
 
 
 /* Title inside header */

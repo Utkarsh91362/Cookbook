@@ -6,9 +6,15 @@
         <div class="slds-modal__container custom-modal">
 
             <!-- Close button -->
-            <lightning-button-icon icon-name="utility:close" variant="bare" onclick={clickHandler}
-                alternative-text="Close window" class="slds-button slds-button_icon slds-modal__close">
-            </lightning-button-icon>
+            <lightning-button-icon 
+    icon-name="utility:close" 
+    variant="bare" 
+    onclick={clickHandler}
+    alternative-text="Close window" 
+    class="slds-modal__close"
+    icon-class="custom-close-icon">
+</lightning-button-icon>
+
 
             <!-- Header -->
             <div class="slds-modal__header custom-header">
